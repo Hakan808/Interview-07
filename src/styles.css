@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container input{
+  border: 2px solid;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: #6C7BDB;
+
+}
+.container .content{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+ 
+  padding: 10px;
+}
+.content p{
+  padding: 5px 20px;
+  
+}
+.content p:nth-child(1){
+  border-radius: 10px 10px 0 0;
+}
+.content p:last-child {
+  border-radius: 0 0 10px 10px ;
+}
+.content p:nth-child(2n){
+  background-color: #3161DB;
+}
+.content p:nth-child(2n + 1){
+  background-color: #65ADE0;
+}
